@@ -1,0 +1,47 @@
+
+
+
+
+
+/*---------------------------------Navigation*/
+
+.navbar-colour {
+    background-color:#f6f6f6;
+}
+
+.logo {
+    color: #f58c5e;
+}
+
+.nav-link {
+    margin-right: 10px;
+}
+
+.nav-link-colour {
+    color:#37948a;
+   }
+
+.nav-link-colour:hover {
+    color: #818386;
+}
+
+.sub-menu {
+    list-style: none;
+}
+
+.sub-menu-link {
+    color: #f58c5e;
+ }
+
+.sub-menu-link:hover {
+    color: #818386;
+}
+
+.navbar-toggler-icon {
+    background-color: #f58c5e;
+
+}
+
+
+
+/*---------------------------------Navigation*/
