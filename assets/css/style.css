@@ -106,18 +106,68 @@
 
 /*---------------------------------Navigation End*/
 
-
+/*---------------------------------Header*/
 
 header {
-    height:200px;
+    height: 300px;
+}
+
+.header-image-container {
+    
+    background: url(../images/girl-in-water.png) no-repeat bottom right; 
+     -webkit-background-size: cover;
+      -moz-background-size: cover;
+       -o-background-size: cover;
+    background-size: cover;
+    }
+
+.img-fluid {
+    max-width:100%;
+    height:auto;
+}
+
+/*---------------------------------Header End*/
+
+/*---------------------------------Secondary Tab Nav*/
+
+
+
+/*---------------------------------Secondary Tab Nav End*/
+
+/*---------------------------------Recipe Pages*/
+
+.instructions {
+    padding: 30px;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height:auto;
+}
+
+.intro {
+    background-color: blue;
+}
+.ingredients {
+    border: 2px solid #f58c5e;
+    padding: 30px;
+    
+}
+
+.recipe-video {
+   display: block;
+   margin: 50px auto;
+}
+
+.middle-section {
+    margin-top: 50px;
 }
 
 
 
 
 
-
-
+/*---------------------------------Recipe Pages End*/
 
 
 /*---------------------------------Footer*/
@@ -125,6 +175,7 @@ header {
 footer {
     background-color: #f58c5e;
     height: 50px;
+    margin-top: 50px;
 }
 
 .social-links {
@@ -152,3 +203,5 @@ footer {
     background: #fafafa;
     color: #f58c5e;
 }
+
+
