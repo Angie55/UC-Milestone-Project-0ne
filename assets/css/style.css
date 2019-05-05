@@ -1,7 +1,12 @@
 
+main {
+    margin: 20px 50px;
+}
 
-
-
+.img-fluid {
+    max-width: 100%;
+    height:auto;
+}
 
 /*---------------------------------Navigation*/
 
@@ -109,7 +114,7 @@
 /*---------------------------------Header*/
 
 header {
-    height: 300px;
+    height: 40vh;
 }
 
 .header-image-container {
@@ -119,12 +124,83 @@ header {
       -moz-background-size: cover;
        -o-background-size: cover;
     background-size: cover;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
     }
+    
+   
 
-.img-fluid {
-    max-width:100%;
-    height:auto;
+
+/*---------------------------------Recipe Page*/
+
+
+
+.recipe-headers {
+    text-align: center;
+    margin: 30px auto;
+    color: #f58c5e;
+
 }
+
+.recipe-title-block {
+ background-color: rgba(55, 148, 138, .8);
+ height:70px;
+}
+
+.recipe-title {
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+    padding-top: 8px;
+    
+    
+    }
+    
+.recipe-title-link {
+    color: white;
+    
+}    
+
+
+.recipe-title-link:hover {
+    text-decoration: none;
+    color: #dfdce3;
+    transition: all 0.20s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -webkit-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+}  
+
+.recipe-image {
+    border: 2px solid rgba(55, 148, 138, .8);
+}
+
+.recipe-link-block {
+    margin-bottom: 30px;
+}
+
+@media (min-width:1025px) {
+    .recipes-page-container {
+        max-width: 80%;
+    }
+    .recipe-title {
+        padding-top: 20px;
+    }
+}
+
+
+
+ 
+ 
+
+
+
+
+
+ 
+
+/*---------------------------------Recipe Page End*/
 
 /*---------------------------------Header End*/
 
@@ -134,40 +210,40 @@ header {
 
 /*---------------------------------Secondary Tab Nav End*/
 
-/*---------------------------------Recipe Pages*/
+/*--------------------------------- Individual Recipe Pages*/
 
-.instructions {
+.instructions, .ingredients {
     padding: 30px;
 }
 
-.img-fluid {
-    max-width: 100%;
-    height:auto;
-}
+
 
 .intro {
     background-color: blue;
 }
+
 .ingredients {
-    border: 2px solid #f58c5e;
-    padding: 30px;
     
 }
 
 .recipe-video {
    display: block;
    margin: 50px auto;
+   
 }
 
 .middle-section {
     margin-top: 50px;
 }
 
+.instruction-border {
+    border: 2px solid #f58c5e;
+    padding: 20px;
+}
 
 
 
-
-/*---------------------------------Recipe Pages End*/
+/*--------------------------------- Individual Recipe Pages End*/
 
 
 /*---------------------------------Footer*/
