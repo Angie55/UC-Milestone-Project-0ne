@@ -1,14 +1,14 @@
-
-main {
-    margin: 20px 50px;
+body {
+    font-family: "Roboto", sans-serif;  
 }
+
 
 .img-fluid {
     max-width: 100%;
     height:auto;
 }
 
-/*---------------------------------Navigation*/
+/*--------------------------------- Main Navigation*/
 
 .navbar-colour {
     background-color:#f6f6f6;
@@ -109,7 +109,7 @@ main {
 
 
 
-/*---------------------------------Navigation End*/
+/*---------------------------------Main Navigation End*/
 
 /*---------------------------------Header*/
 
@@ -129,7 +129,20 @@ header {
     margin-bottom: 20px;
     }
     
-   
+/*---------------------------------Header End*/   
+
+/*---------------------------------Navigation Tabs*/
+
+
+
+.nav-tab-outline a {
+   color:#37948a;
+}
+
+.nav-tab-outline .active {
+    font-weight: bold;
+    
+}
 
 
 /*---------------------------------Recipe Page*/
@@ -137,6 +150,9 @@ header {
 
 
 .recipe-headers {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 2.3em;
     text-align: center;
     margin: 30px auto;
     color: #f58c5e;
@@ -144,17 +160,19 @@ header {
 }
 
 .recipe-title-block {
- background-color: rgba(55, 148, 138, .8);
+ background-color: rgb(55, 148, 138);
  height:70px;
+ border-bottom-left-radius: 10px;
+ border-bottom-right-radius: 10px;
+
 }
 
 .recipe-title {
+    font-family: 'Raleway';
+    font-weight: 600;
     text-align: center;
-    font-weight: bold;
-    font-size: large;
-    padding-top: 8px;
-    
-    
+    font-size: 1.3em;
+  
     }
     
 .recipe-title-link {
@@ -174,18 +192,29 @@ header {
 
 .recipe-image {
     border: 2px solid rgba(55, 148, 138, .8);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
 }
 
 .recipe-link-block {
     margin-bottom: 30px;
+    
 }
 
+
+
+
 @media (min-width:1025px) {
-    .recipes-page-container {
-        max-width: 80%;
+    .page-width-container {
+        max-width: 90%;
     }
     .recipe-title {
-        padding-top: 20px;
+        padding-top: 10px;
+        font-size: 1.3em;
+    }
+    .recipe-headers {
+        font-size: 3em;
     }
 }
 
@@ -202,7 +231,7 @@ header {
 
 /*---------------------------------Recipe Page End*/
 
-/*---------------------------------Header End*/
+
 
 /*---------------------------------Secondary Tab Nav*/
 
@@ -219,11 +248,15 @@ header {
 
 
 .intro {
-    background-color: blue;
+   text-align: center;
 }
 
 .ingredients {
     
+}
+
+.top-section {
+    margin: 30px auto;
 }
 
 .recipe-video {
@@ -239,6 +272,12 @@ header {
 .instruction-border {
     border: 2px solid #f58c5e;
     padding: 20px;
+}
+
+.vlogger-pic {
+    height: 200px;
+    border-radius: 50%;
+    float: top;
 }
 
 
