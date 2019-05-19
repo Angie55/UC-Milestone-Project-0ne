@@ -331,13 +331,14 @@ header {
     .welcome-large {
         margin-top: 50px;
     }
+   
 }
 
 
 
 /*---------------------------------Media Queries large screen end*/
 
-
+/*---------------------------------Media Queries mobile screen*/ 
 
 @media (min-width:810px) {
     .small-scrn-recipes-links {
@@ -347,9 +348,14 @@ header {
     hr {
         display: none;
     }
+    form { 
+        max-width: 60%;
+        margin: 50px auto;
+    }
+
     
 }
-/*---------------------------------Media Queries mobile screen*/ 
+
 
 @media (max-width:810px) {
     .recipe-tabs {
@@ -384,7 +390,6 @@ header {
   position: relative;
   text-align: center;
   color: white;
-  
 }
 
 
@@ -394,8 +399,6 @@ header {
     height: 20vh;
     opacity: 0.5;
     background-color: #f58c5e;
-    
-   
 }
 
 .recipe-page-header h1{
@@ -500,6 +503,40 @@ header {
 
 /*--------------------------------- Individual Recipe Pages End*/
 
+/*---------------------------------Contact Us*/
+
+.contact-text {
+    padding: 20px 10px 0 10px;
+    
+    margin-top: 20px;
+    text-align: center;
+}
+
+form {
+    
+    border: 2px solid #dfdce3;
+    border-radius:10px;
+    padding:20px;
+}
+
+form label {
+    color: #37948a; 
+}
+
+.form-btn {
+     background-color: #37948a; 
+     color: white;
+ }
+ 
+ .form-btn:hover {
+     color: #dfdce3;
+     background-color: #2f887e;
+ }
+ 
+ 
+  
+ 
+/*---------------------------------Contact Us End*/
 
 /*---------------------------------Footer*/
 
