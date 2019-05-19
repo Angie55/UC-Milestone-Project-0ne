@@ -17,7 +17,7 @@ hr {
 /*--------------------------------- Main Navigation*/
 
 .navbar-colour {
-    background-color:#f6f6f6;
+    background-color: white;
 }
 
 .logo {
@@ -198,14 +198,50 @@ header {
 }
 
 
-
-
 .small-scrn-recipes-links {
     text-align: center;
     margin: 40px auto;
 }
 
 /*---------------------------------Navigation Tabs Ends*/
+
+/*---------------------------------About Us*/
+.welcome {
+    text-align: center;
+    padding-top: 20px;
+}
+.welcome p {
+    padding: 0px 20px 20px;
+    }
+    
+.welcome h3 {
+    font-family: 'Raleway', sans-serif;
+    color:#f58c5e;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 2.3em;
+}    
+
+.about-us-text p {
+    padding: 5px 20px; 
+}  
+
+.welcome-pic {
+    padding: 10px 30px 30px 30px;
+    text-align: center;
+}
+
+.go-natural-pic {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+ 
+ 
+ 
+
+/*---------------------------------About Us Ends*/
 
 /*---------------------------------Recipe Page*/
 
@@ -269,7 +305,7 @@ header {
 
 @media (min-width:1025px) {
     .page-width-container {
-        max-width: 90%;
+        max-width: 80%;
     }
     .recipe-title {
         padding-top: 10px;
@@ -280,9 +316,30 @@ header {
     }
 }
 
+@media (min-width:1200px) {
+    .welcome-pic {
+        max-width: 50%;
+        margin-top: 80px;
+    }
+}
+
+@media (min-width:1410px) {
+    .welcome-pic {
+        max-width: 50%;
+        margin-top: 70px;
+    }
+    .welcome-large {
+        margin-top: 50px;
+    }
+}
+
+
 
 /*---------------------------------Media Queries large screen end*/
- @media (min-width:810px) {
+
+
+
+@media (min-width:810px) {
     .small-scrn-recipes-links {
         display: none;
     }
@@ -347,7 +404,7 @@ header {
     left: 50%;
     transform: translate(-50%, -50%);
     font-family: 'Raleway', sans-serif;
-    font-size: 5em;
+    font-size: 3em;
     
 }
 
@@ -393,9 +450,6 @@ header {
    padding-top: 10px;
 }
 
-.top-section {
-    margin: 30px auto;
-}
 
 .recipe-video {
    display: block;
