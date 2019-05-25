@@ -12,7 +12,18 @@ hr {
     background-color: #dfdce3;
 }
 
+.link-hvr {
+    color:#37948a;
+}
 
+.link-hvr:hover{
+    text-decoration: none;
+    color: #dfdce3;
+    transition: all 0.20s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -webkit-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+}  
 
 /*--------------------------------- Main Navigation*/
 
@@ -200,7 +211,7 @@ header {
 
 .small-scrn-recipes-links {
     text-align: center;
-    margin: 40px auto;
+    margin: 30px auto 50px;
 }
 
 /*---------------------------------Navigation Tabs Ends*/
@@ -237,9 +248,7 @@ header {
     margin-bottom: 40px;
     text-align: center;
 }
- 
- 
- 
+
 
 /*---------------------------------About Us Ends*/
 
@@ -252,7 +261,7 @@ header {
     font-weight: 600;
     font-size: 2.3em;
     text-align: center;
-    margin: 30px auto;
+    margin: 40px auto;
     color: #f58c5e;
 
 }
@@ -303,6 +312,7 @@ header {
 
 /*---------------------------------Media Queries large screen*/
 
+
 @media (min-width:1025px) {
     .page-width-container {
         max-width: 80%;
@@ -313,6 +323,25 @@ header {
     }
     .recipe-headers {
         font-size: 3em;
+        margin: 70px auto 70px;
+    }
+    .small-scrn-recipes-links {
+        margin: 50px auto 70px; 
+    }
+    .video-section {
+        margin-top: 20px;
+    }
+}
+
+@media (min-width:1550px) {
+    .intro-section {
+        margin-bottom: 100px;
+    }
+    .intro {
+        margin-top: 20px;
+    }
+    .video-section {
+        margin-top: 40px;
     }
 }
 
@@ -331,30 +360,33 @@ header {
     .welcome-large {
         margin-top: 50px;
     }
-   
+}
+.recipe-tabs {
+    display: none;
 }
 
-
-
-/*---------------------------------Media Queries large screen end*/
-
-/*---------------------------------Media Queries mobile screen*/ 
-
-@media (min-width:810px) {
-    .small-scrn-recipes-links {
+@media (min-width:992px) {
+    .small-scrn-method-section {
         display: none;
     }
     
-    hr {
-        display: none;
-    }
+
+}
+
+@media (min-width:810px) {
     form { 
         max-width: 60%;
         margin: 50px auto;
     }
-
+    .recipe-page-header {
+        font-size: 1.8em;
+    }
     
 }
+/*---------------------------------Media Queries large screen end*/
+
+/*---------------------------------Media Queries mobile screen*/ 
+
 
 
 @media (max-width:810px) {
@@ -367,17 +399,14 @@ header {
 }
 
 
-
-
+@media (max-width:810px) {
+.large-scrn-method-section {
+    display: none;
+   }
+}
 
  
-
-
-
-
-
 /*---------------------------------Secondary Tab Nav*/
-
 
 
 /*---------------------------------Secondary Tab Nav End*/
@@ -385,7 +414,7 @@ header {
 /*--------------------------------- Recipe Page Header*/
 .recipe-page-header {
   padding: 0; 
-  height: 20vh;
+  height: 25vh;
   background-color: #37948a;
   position: relative;
   text-align: center;
@@ -396,8 +425,8 @@ header {
 
 .header-image {
     width: 100%;
-    height: 20vh;
-    opacity: 0.5;
+    height: 25vh;
+    opacity: 0.6;
     background-color: #f58c5e;
 }
 
@@ -407,24 +436,28 @@ header {
     left: 50%;
     transform: translate(-50%, -50%);
     font-family: 'Raleway', sans-serif;
-    font-size: 3em;
+    font-size: 3.4em;
     
 }
 
 
 /*--------------------------------- Individual Recipe Pages*/
 
-.ingredients {
+
+.method-text {
     padding: 20px;
 }
 
-.instructions {
-    padding: 20px;
+.method-hr {
+    background-color:#f58c5e;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .intro {
    text-align: center;
    padding-top: 20px;
+   padding-bottom: 15px;
 }
 
 .intro-header {
@@ -433,11 +466,6 @@ header {
 
 .intro p {
     padding: 40px 20px 20px;
-}
-
-
-.recipe-page-main-image{
-    margin: 20px auto 0;
 }
 
 .image-border-radius {
@@ -450,54 +478,62 @@ header {
    font-weight: 600;
    color: #f58c5e;
    padding-bottom: 10px;
-   padding-top: 10px;
+   margin-bottom: 20px;
 }
-
 
 .recipe-video {
    display: block;
-   margin: 10px auto 15px;
+   margin: 10px auto ;
    padding-right: 15px;
    padding-left: 15px;
-  
 }
 
 .middle-section {
-    margin-top: 30px;
+    margin-top: 60px;
 }
 
 .info-border {
     border: 2px solid #f58c5e;
-    border-radius: 2%;
+    border-radius: 10px;
+    margin-bottom: 50px;
 }
 
-.info-padding {
-    padding: 0 20px 0 0;
-}
-
-.info-padding p {
-    padding: 0 20px 0 20px;
-}
-
-.ingredients li {
-    list-style-type: none;
+.info-padding li {
+    padding-bottom: 10px;
 }
 
 .ingred-bullet-point {
     color: #34948a;
 }
 
-
+.instruct-text {
+    margin-left: 25px;
+    padding-right: 10px;
+}
 
 .vlogger-pic {
     height: 200px;
     border-radius: 50%;
     border: 1px solid #f58c5e;
-   }
+ }
    
 .back-to-top-link {
-    margin-top: 20px;
+    margin-top: 60px;
     text-align: center;
+}
+
+.large-scrn-method-section {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.large-scrn-method-section li {
+    padding-right: 20px;
+}
+
+.large-scrn-method-section h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 
