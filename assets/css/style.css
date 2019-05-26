@@ -44,8 +44,9 @@ hr {
 }
 
 .nav-link-colour {
-    color:#37948a;
+    color: #37948a;
    }
+   
 
 .nav-link-colour:hover {
     color: #818386;
@@ -94,16 +95,28 @@ hr {
     color: #818386;
     background-color: rgba(223, 220, 227, .2);
     border-radius: 10px;
-    transition: all 0.25s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.50s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-    
+    transition: all 0.15s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -webkit-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
 }
 
 .dropdown-menu {
     border-radius: 10px;
     box-shadow: 2px 2px 2px 1px rgba(129, 131, 134, .5);
+}
+
+.burger-icon {
+    color:#37948a;
+    font-size: 30px;
+}
+
+.burger-icon:hover {
+    color: #818386;
+    transition: all 0.15s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -webkit-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
 }
 
 
@@ -115,14 +128,9 @@ hr {
     -moz-transition: all 0.25s ease-in-out;
     -webkit-transition: all 0.40s ease-in-out;
     -o-transition: all 0.25s ease-in-out;
-    
-    
 }
 
-.navbar-toggler-icon {
-    background-color: #f58c5e;
 
-}
 
 
 
@@ -152,7 +160,6 @@ header {
 .nav-tab-outline a {
     color: #37948a;
 }
-
 
 .nav-item-style {
     padding-left:30px;
@@ -208,8 +215,7 @@ header {
     border-color: #37948a;
 }
 
-
-.small-scrn-recipes-links {
+.btn-recipe-section {
     text-align: center;
     margin: 30px auto 50px;
 }
