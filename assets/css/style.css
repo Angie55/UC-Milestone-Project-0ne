@@ -176,7 +176,7 @@ header {
     margin-top: 20px;
 }
 
-/*---------------------------------Navigation Tabs small screen*/
+/*-------------------------------------------Recipe link buttoms*/
 
 .btn-primary:not(:disabled):not(.disabled).active {
     background-color: #f58c5e;
@@ -220,7 +220,7 @@ header {
     margin: 30px auto 50px;
 }
 
-/*---------------------------------Navigation Tabs Ends*/
+/*---------------------------------Recipe link buttoms*/
 
 /*---------------------------------About Us*/
 .welcome {
