@@ -337,6 +337,7 @@ header {
     .video-section {
         margin-top: 20px;
     }
+    
 }
 
 @media (min-width:1550px) {
@@ -409,6 +410,12 @@ header {
 .large-scrn-method-section {
     display: none;
    }
+}
+
+@media (max-width:1025px) {
+    .disclaimer {
+        display: none;
+    }
 }
 
  
@@ -615,4 +622,14 @@ footer {
     color: #f58c5e;
 }
 
+.footer-container {
+    position: relative
+}
+
+.disclaimer {
+       color: white;
+       position: absolute;
+       padding-top: 15px;
+       padding-left: 10px;
+}
 
