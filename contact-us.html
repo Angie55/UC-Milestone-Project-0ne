@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     
     <head>
         <meta charset="UTF-8">
@@ -8,26 +8,29 @@
         <title>Homemade Beauty</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Raleway:400,600,700|Roboto:400,700" rel="stylesheet">
         <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
         
     </head>
     
     <body>
         
-    
-        
+<!--  Main navigation  -->        
         <nav class="navbar navbar-expand-lg navbar-colour">
-            <a class="navbar-brand logo" href="#">Homemade Beauty</a>
+            
+            <a class="navbar-brand logo" href="index.html">Homemade Beauty</a>
+            
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon nav-toggler-icon-colour"></span>
             </button>
+            
             <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link nav-link-colour nav-hover-line" href="#">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link nav-link-colour nav-hover-line" href="index.html">Home</a>
                     </li>
-                    <li class="nav-item active">
-                        <a class="nav-link nav-link-colour nav-hover-line" href="#">About Us</a>
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-colour nav-hover-line" href="about-us.html">About Us</a>
                     </li>
                     
                     <li class="nav-item dropdown">
@@ -35,118 +38,127 @@
                         Recipes
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item nav-link-colour sub-menu-main" href="#">Face</a>
+                            <a class="dropdown-item nav-link-colour sub-menu-main" href="face-pages/face-recipes-all.html">Face</a>
                                 <ul class="sub-menu">
                                     <li>
-                                        <a class="nav-link sub-menu-link" href="#">Cleansers</a>
+                                        <a class="nav-link sub-menu-link" href="face-pages/face-cleansers-one.html">Cleansers</a>
                                     </li>
                                     <li>
-                                        <a class="nav-link sub-menu-link" href="#">Srubs</a>
+                                        <a class="nav-link sub-menu-link" href="face-pages/face-scrub-one.html">Scrubs</a>
                                     </li>
                                     <li>
-                                        <a class="nav-link sub-menu-link" href="#">Moisterisers</a>
-                                    </li>
-                                    <li>
-                                        <a class="nav-link sub-menu-link" href="#">Masks</a>
+                                        <a class="nav-link sub-menu-link" href="face-pages/face-mask-one.html">Masks</a>
                                     </li>
                                 </ul>
-                            <a class="dropdown-item nav-link-colour sub-menu-main" href="#">Body</a>
+                            <a class="dropdown-item nav-link-colour sub-menu-main" href="body-pages/body-recipes-all.html">Body</a>
                                 <ul class="sub-menu">
                                     <li>
-                                        <a class="nav-link sub-menu-link" href="#">Cleansers</a>
+                                        <a class="nav-link sub-menu-link" href="body-pages/body-wash-one.html">Cleansers</a>
                                     </li>
                                     <li>
-                                        <a class="nav-link sub-menu-link" href="#">Srubs</a>
+                                        <a class="nav-link sub-menu-link" href="body-pages/body-scrub-one.html">Scrubs</a>
                                     </li>
                                     <li>
-                                        <a class="nav-link sub-menu-link" href="#">Moisterisers</a>
-                                    </li>
-                                    <li>
-                                        <a class="nav-link sub-menu-link" href="#">Deo</a>
+                                        <a class="nav-link sub-menu-link" href="body-pages/body-lotion-one.html">Moisterisers</a>
                                     </li>
                                 </ul>
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link nav-link-colour nav-hover-line" href="#">Contact</a>
+                        <a class="nav-link nav-link-colour nav-hover-line active" href="contact-us.html">Contact Us<span class="sr-only">(current)</span></a>
                     </li>
                 </ul>
             </div>
         </nav>
         
+ <!--  Header  -->        
         <header class="recipe-page-header">
-            <img class="header-image img-fluid" src="assets/images/face-cleansers-header.jpg"/>
+            
+            <img class="header-image img-fluid" src="assets/images/headers/contact-us-header.jpg" alt="field with rows of colourful flowers">
             <h1>CONTACT US</h1>
+            
         </header>
         
+        
         <main class="main-height">
-        <div class="container-fluid page-width-container">
             
-            <div class="contact-text">
-                <p>If you would like us to feature one of you recipes please fill the form below and we will be in touch</p>
-            </div>
-            
-          <form>
-              
-              <div class="form-group">
-                <label for="name">Name:</label>
-                <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Please enter full name here">
-              </div>
-              <div class="form-group">
-                <label for="exampleInputEmail1">Email address</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-              </div>
-              
-        
-              <button type="submit" class="btn form-btn">Submit</button>
-            </form>
-        
-            
-        </div>
-        </main>
-    
-    <footer class="container-fluid">
-        
-        <div class="col-12">
-                <div class="row"></div>
-                    <ul class="list-inline social-links">
-                        <li class="list-inline-item">
-                            <a target="_blank" href="#">
-                                <i class="fab fa-facebook-f" aria-hidden="true"></i>
-                                <span class="sr-only">Facebook</span>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a target="_blank" href="#">
-                                <i class="fab fa-twitter" aria-hidden="true"></i>
-                                <span class="sr-only">Twitter</span>
-                            </a>
-                        </li>
-                
-                        <li class="list-inline-item">
-                            <a target="_blank" href="#">
-                                <i class="fab fa-pinterest" aria-hidden="true"></i>
-                                <span class="sr-only">Pinterest</span>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a target="_blank" href="#">
-                                <i class="fab fa-instagram" aria-hidden="true"></i>
-                                <span class="sr-only">Instagram</span>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a target="_blank" href="assets/cv/sample-cv.pdf">
-                                <i class="fab fa-youtube" aria-hidden="true"></i>
-                                <span class="sr-only">YouTube</span>
-                            </a>
-                        </li>
-                    </ul>
+            <div class="container-fluid page-width-container">
+                <div class="contact-text">
+                    <p>If you would like us to feature one of you recipes please fill the form below and we will be in touch</p>
                 </div>
+<!--  Form  -->                
+                <form>
+                    <div class="form-group">
+                        <label for="first-name">First name:</label>
+                        <input type="text" class="form-control" id="first-name" placeholder="Enter first name here" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="surname">Surname:</label>
+                        <input type="text" class="form-control" id="surname" placeholder="Enter surname here" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required>
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Tell us about yourself, your blog or YouTube channel</label>
+                        
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="10">
+                            
+                        </textarea> 
+                    </div>
+                      
+                    <button type="submit" class="btn form-btn">Submit</button>
+                </form>
             </div>
+            
+        </main>
         
-    </footer>
+<!--  Footer  -->    
+        <footer class="container-fluid">
+            
+            <div class="col-12">
+                        <div class="row">
+                            <ul class="list-inline social-links">
+                                <li class="list-inline-item">
+                                    <a target="_blank" href="https://www.facebook.com/HimaniWright/">
+                                        <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                                        <span class="sr-only">Facebook</span>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a target="_blank" href="https://twitter.com/hardworkngmomtv">
+                                        <i class="fab fa-twitter" aria-hidden="true"></i>
+                                        <span class="sr-only">Twitter</span>
+                                    </a>
+                                </li>
+                        
+                                <li class="list-inline-item">
+                                    <a target="_blank" href="https://www.pinterest.co.uk/anitasamantha/?autologin=true">
+                                        <i class="fab fa-pinterest" aria-hidden="true"></i>
+                                        <span class="sr-only">Pinterest</span>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a target="_blank" href="https://www.instagram.com/himaniwright/">
+                                        <i class="fab fa-instagram" aria-hidden="true"></i>
+                                        <span class="sr-only">Instagram</span>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a target="_blank" href="https://www.youtube.com/user/livesimplymom">
+                                        <i class="fab fa-youtube" aria-hidden="true"></i>
+                                        <span class="sr-only">YouTube</span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="disclaimer">This website was created for educational purposes
+                            </div>
+                        </div>
+                    </div>
+            
+        </footer>
     
     
     

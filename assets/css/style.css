@@ -578,8 +578,9 @@ form label {
  }
  
  .form-btn:hover {
-     color: #dfdce3;
-     background-color: #2f887e;
+    background-color: white;
+    color: #37948a;
+    border-color: #37948a;
  }
  
  
