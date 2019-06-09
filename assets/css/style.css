@@ -2,7 +2,6 @@ body {
     font-family: "Roboto", sans-serif;  
 }
 
-
 .img-fluid {
     max-width: 100%;
     height:auto;
@@ -24,6 +23,12 @@ hr {
     -webkit-transition: all 0.30s ease-in-out;
     -o-transition: all 0.25s ease-in-out;
 }  
+
+.back-to-top-link {
+    margin-top: 60px;
+    text-align: center;
+}
+
 
 /*--------------------------------- Main Navigation*/
 
@@ -136,15 +141,19 @@ hr {
 
 /*---------------------------------Main Navigation End*/
 
-/*---------------------------------Header*/
+/*---------------------------------Headers*/
 
 header {
     height: 40vh;
 }
 
+/*---------------------------------Headers End*/
+
+/*--------------------------------- Homepage*/
 .header-image-container {
+    height: 60vh;
     
-    background: url(../images/girl-in-water.png) no-repeat bottom right; 
+    background: url(../images/homepage/home-hero.jpg) no-repeat bottom fixed; 
      -webkit-background-size: cover;
       -moz-background-size: cover;
        -o-background-size: cover;
@@ -152,31 +161,34 @@ header {
     display: flex;
     align-items: center;
     margin-bottom: 5px;
+    justify-content: center;
     }
     
-/*---------------------------------Header End*/   
+.homepage-image {
+    height: 40vh;
+    
+    
+    background: url(../images/homepage/homepage-one.jpg) no-repeat fixed; 
+     -webkit-background-size: cover;
+      -moz-background-size: cover;
+       -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    margin-left: 0px;
+    margin-bottom: 5px;
+    justify-content: center;
+    }   
+    
+.homepage-main {
+    text-align: center;
+}    
+/*--------------------------------- Homepage End*/   
 
 /*---------------------------------Navigation Tabs*/
-.nav-tab-outline a {
-    color: #37948a;
-}
 
-.nav-item-style {
-    padding-left:30px;
-    padding-right:30px;
-}
 
-.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
-    color: white;
-    background-color: #37948a;
-    border-color: #37948a;
-} 
-
-.recipe-tabs {
-    margin-top: 20px;
-}
-
-/*-------------------------------------------Recipe link buttoms*/
+/*-------------------------------------------Recipe link buttons*/
 
 .btn-primary:not(:disabled):not(.disabled).active {
     background-color: #f58c5e;
@@ -220,7 +232,7 @@ header {
     margin: 30px auto 50px;
 }
 
-/*---------------------------------Recipe link buttoms*/
+/*---------------------------------Recipe link buttons*/
 
 /*---------------------------------About Us*/
 .welcome {
@@ -250,7 +262,7 @@ header {
 
 .go-natural-pic {
     margin-top: 60px;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     text-align: center;
 }
 
@@ -284,6 +296,7 @@ header {
     font-weight: 600;
     text-align: center;
     font-size: 1.3em;
+    padding-top: 15px
     }
     
 .recipe-title-link {
@@ -301,7 +314,7 @@ header {
 }  
 
 .recipe-image {
-    border: 2px solid rgba(55, 148, 138, .8);
+    border: 2px solid rgb(55, 148, 138);
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     
@@ -519,10 +532,6 @@ header {
     border: 1px solid #f58c5e;
  }
    
-.back-to-top-link {
-    margin-top: 60px;
-    text-align: center;
-}
 
 .large-scrn-method-section {
     max-width: 80%;
@@ -545,8 +554,8 @@ header {
 
 .contact-text {
     padding: 20px 10px 0 10px;
-    
-    margin-top: 20px;
+    margin-top: 50px;
+    margin-bottom: 60px;
     text-align: center;
 }
 

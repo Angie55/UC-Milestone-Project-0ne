@@ -8,78 +8,77 @@
         <title>Homemade Beauty</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Raleway:400,600,700|Roboto:400,700" rel="stylesheet">
         <link rel="stylesheet" href="../assets/css/style.css" type="text/css" />
-        
     </head>
     
     <body>
         
-    
-        
+<!--  Main navigation  -->        
         <nav class="navbar navbar-expand-lg navbar-colour">
+            
             <a class="navbar-brand logo" href="#">Homemade Beauty</a>
+            
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon nav-toggler-icon-colour"></span>
             </button>
+            
             <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link nav-link-colour nav-hover-line" href="#">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link nav-link-colour nav-hover-line" href="../index.html">Home</a>
                     </li>
-                    <li class="nav-item ">
-                        <a class="nav-link nav-link-colour nav-hover-line" href="#">About Us</a>
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-colour nav-hover-line" href="../about-us.html">About Us</a>
                     </li>
                     
-                    <li class="nav-item active dropdown">
-                        <a class="nav-link dropdown-toggle nav-link-colour nav-hover-line" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Recipes
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle nav-link-colour nav-hover-line active" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Recipes<span class="sr-only">(current)</span>
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item nav-link-colour sub-menu-main" href="#">Face</a>
+                            <a class="dropdown-item nav-link-colour sub-menu-main" href="../face-pages/face-recipes-all.html">Face</a>
                                 <ul class="sub-menu">
                                     <li>
-                                        <a class="nav-link sub-menu-link" href="#">Cleansers</a>
+                                        <a class="nav-link sub-menu-link" href="../face-pages/face-cleansers-one.html">Cleansers</a>
                                     </li>
                                     <li>
-                                        <a class="nav-link sub-menu-link" href="#">Srubs</a>
+                                        <a class="nav-link sub-menu-link" href="../face-pages/face-scrub-one.html">Scrubs</a>
                                     </li>
                                     <li>
-                                        <a class="nav-link sub-menu-link" href="#">Moisterisers</a>
-                                    </li>
-                                    <li>
-                                        <a class="nav-link sub-menu-link" href="#">Masks</a>
+                                        <a class="nav-link sub-menu-link" href="../face-pages/face-mask-one.html">Masks</a>
                                     </li>
                                 </ul>
-                            <a class="dropdown-item nav-link-colour sub-menu-main" href="#">Body</a>
+                            <a class="dropdown-item nav-link-colour sub-menu-main" href="../body-pages/body-recipes-all.html">Body<span class="sr-only">(current)</span></a>
                                 <ul class="sub-menu">
                                     <li>
-                                        <a class="nav-link sub-menu-link" href="#">Cleansers</a>
+                                        <a class="nav-link sub-menu-link" href="../body-pages/body-wash-one.html">Cleansers</a>
                                     </li>
                                     <li>
-                                        <a class="nav-link sub-menu-link" href="#">Srubs</a>
+                                        <a class="nav-link sub-menu-link" href="../body-pages/body-scrub-one.html">Scrubs</a>
                                     </li>
                                     <li>
-                                        <a class="nav-link sub-menu-link" href="#">Moisterisers</a>
-                                    </li>
-                                    <li>
-                                        <a class="nav-link sub-menu-link" href="#">Deo</a>
+                                        <a class="nav-link sub-menu-link" href="../body-pages/body-lotion-one.html">Moisterisers<span class="sr-only">(current)</span></a>
                                     </li>
                                 </ul>
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link nav-link-colour nav-hover-line" href="#">Contact</a>
+                        <a class="nav-link nav-link-colour nav-hover-line" href="../contact-us.html"></a>Body Recipes</a>
                     </li>
                 </ul>
             </div>
         </nav>
         
-        <header class="container-fluid header-image-container">
+<!--  Header  -->        
+        <header class="recipe-page-header">
             
+            <img class="header-image img-fluid" src="../assets/images/headers/body-recipes-header.jpg" alt="close up of field of rapeseeds">
+            <h1>Body Recipes</h1>
             
         </header>
         
-        
+<!--  Body washes  -->        
         <div class="container-fluid recipes-page-container">
             <section>
                 <div class="row">
@@ -87,17 +86,15 @@
                 </div>
                 <div class="row">
                     <div class="col-md-4 col-sm-12 recipe-link-block">
-                        
-                        <img src="../assets/images/body-recipes/body-wash-one.jpg" alt="close-up of clear soap dispenser will wth foaming wash" class="img-fluid recipe-image"></img>
+                        <img src="../assets/images/body-recipes/body-wash-one.jpg" alt="close-up of clear soap dispenser will wth foaming wash" class="img-fluid recipe-image">
                         <div class="recipe-title-block">
                             <div class="recipe-title">
-                        <a class="recipe-title-link" href="#">Gentle Foaming Body Wash</a>
-                            </div>
-                        </div>
-                         
+                                <a class="recipe-title-link" href="#">Gentle Foaming Body Wash</a>
+                            </div>   
+                        </div>    
                     </div>
                     <div class="col-md-4 col-sm-12 recipe-link-block">
-                        <img src="../assets/images/body-recipes/body-wash-two.jpg" alt="body wash in glass jug next to fresh rosemary and a body brush" class="img-fluid recipe-image"></img>
+                        <img src="../assets/images/body-recipes/body-wash-two.jpg" alt="body wash in glass jug next to fresh rosemary and a body brush" class="img-fluid recipe-image">
                         <div class="recipe-title-block">
                             <div class="recipe-title">
                                 <a class="recipe-title-link" href="#">Nourishing Foaming Body Wash</a>
@@ -105,66 +102,68 @@
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-12 recipe-link-block">
-                        <img src="../assets/images/body-recipes/body-wash-three.jpg" alt="body wash in a squeezy bottle next to some of the ingredients" class="img-fluid recipe-image"></img>
+                        <img src="../assets/images/body-recipes/body-wash-three.jpg" alt="body wash in a squeezy bottle next to some of the ingredients" class="img-fluid recipe-image">
                         <div class="recipe-title-block">
                             <div class="recipe-title">
-                        <a class="recipe-title-link" href="#">Simple Moisterising Body Wash</a>
-                            </div>
+                                <a class="recipe-title-link" href="#">Simple Moisterising Body Wash</a>
+                             </div>
                         </div>
-                    </div>
+                    </div>    
+                </div>
             </section>
+            
+<!--  Body Scrubs  -->            
             <section>
                 <div class="row">
                     <h2 class="recipe-headers">Scrubs</h2>
                 </div>
                 <div class="row">
                     <div class="col-md-4 col-sm-12 recipe-link-block ">
-                        
-                        <img src="../assets/images/body-recipes/body-scrub-one.jpg" alt="glass jar of brown sugar" class="img-fluid recipe-image "></img>
+                        <img src="../assets/images/body-recipes/body-scrub-one.jpg" alt="glass jar of brown sugar" class="img-fluid recipe-image ">
                         <div class="recipe-title-block">
                             <div class="recipe-title">
-                        <a class="recipe-title-link" href="#">Sugar and Coffee Body Scrub</a>
-                            </div>
-                        </div>
-                         
-                    </div>
-                    <div class="col-md-4 col-sm-12 recipe-link-block">
-                        <img src="../assets/images/body-recipes/body-scrub-two.jpg" alt="glass jar of white sugar next to wooden spoon" alt="glass jar of brown sugar" class="img-fluid recipe-image"></img>
-                        <div class="recipe-title-block">
-                            <div class="recipe-title">
-                        <a class="recipe-title-link" href="#">Lemon and Sugar Body Scrub</a>
+                                <a class="recipe-title-link" href="#">Sugar and Coffee Body Scrub</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-12 recipe-link-block">
-                        <img src="../assets/images/body-recipes/body-scrub-three.jpg" alt="glass jar of pink body scrub" class="img-fluid recipe-image"></img>
+                        <img src="../assets/images/body-recipes/body-scrub-two.jpg" alt="glass jar of white sugar next to wooden spoon" alt="glass jar of brown sugar" class="img-fluid recipe-image">
                         <div class="recipe-title-block">
                             <div class="recipe-title">
-                        <a class="recipe-title-link" href="#">Pink Salt Body Scrub</a>
+                                <a class="recipe-title-link" href="#">Lemon and Sugar Body Scrub</a>
                             </div>
                         </div>
                     </div>
+                    <div class="col-md-4 col-sm-12 recipe-link-block">
+                        <img src="../assets/images/body-recipes/body-scrub-three.jpg" alt="glass jar of pink body scrub" class="img-fluid recipe-image">
+                        <div class="recipe-title-block">
+                            <div class="recipe-title">
+                                <a class="recipe-title-link" href="#">Pink Salt Body Scrub</a>
+                            </div>
+                        </div>
+                    </div>    
+                </div>
             </section>
+       
+<!--  Body Moisterisers-->            
             <section>
                 <div class="row">
                     <h2 class="recipe-headers">Lotions</h2>
                 </div>
                 <div class="row">
                     <div class="col-md-4 col-sm-12 recipe-link-block">
-                        
-                        <img src="../assets/images/body-recipes/body-lotion-one.jpg" alt="birds eye view of two glass jars filled with lotion" class="img-fluid recipe-image"></img>
+                        <img src="../assets/images/body-recipes/body-lotion-one.jpg" alt="birds eye view of two glass jars filled with lotion" class="img-fluid recipe-image">
                         <div class="recipe-title-block">
                             <div class="recipe-title">
-                        <a class="recipe-title-link" href="#">Ultra Moisterising Body Lotion</a>
+                                <a class="recipe-title-link" href="#">Ultra Moisterising Body Lotion</a>
                             </div>
                         </div>
-                         
                     </div>
                     <div class="col-md-4 col-sm-12 recipe-link-block">
-                        <img src="../assets/images/body-recipes/body-lotion-two.jpg" alt="two jars filled with mango body butter" class="img-fluid recipe-image"></img>
+                        <img src="../assets/images/body-recipes/body-lotion-two.jpg" alt="two jars filled with mango body butter" class="img-fluid recipe-image">
                         <div class="recipe-title-block">
                             <div class="recipe-title">
-                        <a class="recipe-title-link" href="#">Mango Body Butter Souffle</a>
+                                <a class="recipe-title-link" href="#">Mango Body Butter Souffle</a>
                             </div>
                         </div>
                     </div>
@@ -172,70 +171,63 @@
                         <img src="../assets/images/body-recipes/body-lotion-three.jpg" alt="jar filled with white body butter with ribbon tied around the jar" class="img-fluid recipe-image">
                         <div class="recipe-title-block">
                             <div class="recipe-title">
-                        <a class="recipe-title-link" href="#">Gentle Creamy Body Lotion</a>
+                                <a class="recipe-title-link" href="#">Gentle Creamy Body Lotion</a>
                             </div>
                         </div>
-                    </div>
+                    </div>    
+                </div>
             </section>
         </div>
         
-     
-    
+<!--  Footer  -->     
     <footer class="container-fluid">
         
         <div class="col-12">
-                <div class="row"></div> <!---------------------Look into this--------------->
-                    <ul class="list-inline social-links">
-                        <li class="list-inline-item">
-                            <a target="_blank" href="#">
-                                <i class="fab fa-facebook-f" aria-hidden="true"></i>
-                                <span class="sr-only">Facebook</span>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a target="_blank" href="#">
-                                <i class="fab fa-twitter" aria-hidden="true"></i>
-                                <span class="sr-only">Twitter</span>
-                            </a>
-                        </li>
-                
-                        <li class="list-inline-item">
-                            <a target="_blank" href="#">
-                                <i class="fab fa-pinterest" aria-hidden="true"></i>
-                                <span class="sr-only">Pinterest</span>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a target="_blank" href="#">
-                                <i class="fab fa-instagram" aria-hidden="true"></i>
-                                <span class="sr-only">Instagram</span>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a target="_blank" href="assets/cv/sample-cv.pdf">
-                                <i class="fab fa-youtube" aria-hidden="true"></i>
-                                <span class="sr-only">YouTube</span>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        
+                        <div class="row">
+                            <ul class="list-inline social-links">
+                                <li class="list-inline-item">
+                                    <a target="_blank" href="https://www.facebook.com/HimaniWright/">
+                                        <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                                        <span class="sr-only">Facebook</span>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a target="_blank" href="https://twitter.com/hardworkngmomtv">
+                                        <i class="fab fa-twitter" aria-hidden="true"></i>
+                                        <span class="sr-only">Twitter</span>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a target="_blank" href="https://www.pinterest.co.uk/anitasamantha/?autologin=true">
+                                        <i class="fab fa-pinterest" aria-hidden="true"></i>
+                                        <span class="sr-only">Pinterest</span>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a target="_blank" href="https://www.instagram.com/himaniwright/">
+                                        <i class="fab fa-instagram" aria-hidden="true"></i>
+                                        <span class="sr-only">Instagram</span>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a target="_blank" href="https://www.youtube.com/user/livesimplymom">
+                                        <i class="fab fa-youtube" aria-hidden="true"></i>
+                                        <span class="sr-only">YouTube</span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="disclaimer">This website was created for educational purposes
+                            </div>
+                        </div>
+                    </div>
+                    
     </footer>
-    
-    
-    
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
      
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>   
         
     </body>
-    
-    
-    
-    
-    
-    
     
 </html>
