@@ -224,7 +224,6 @@ header {
 
 /*---------------------------------About Us*/
 .welcome {
-    text-align: center;
     padding-top: 20px;
 }
 .welcome p {
@@ -238,7 +237,7 @@ header {
     padding-top: 20px;
     padding-bottom: 20px;
     font-size: 2.3em;
-}    
+}   
 
 .about-us-text p {
     padding: 5px 20px; 
@@ -250,7 +249,7 @@ header {
 }
 
 .go-natural-pic {
-    margin-top: 40px;
+    margin-top: 60px;
     margin-bottom: 40px;
     text-align: center;
 }
@@ -357,27 +356,16 @@ header {
         max-width: 50%;
         margin-top: 80px;
     }
+    .about-large-screen hr {
+        margin-top: 40px;
+    }
 }
 
-@media (min-width:1410px) {
-    .welcome-pic {
-        max-width: 50%;
-        margin-top: 70px;
-    }
-    .welcome-large {
-        margin-top: 50px;
-    }
-}
-.recipe-tabs {
-    display: none;
-}
 
 @media (min-width:992px) {
     .small-scrn-method-section {
         display: none;
     }
-    
-
 }
 
 @media (min-width:810px) {
@@ -496,9 +484,10 @@ header {
 
 .recipe-video {
    display: block;
-   margin: 10px auto ;
+   margin: auto;
    padding-right: 15px;
    padding-left: 15px;
+   padding-top: 20px;
 }
 
 .middle-section {
