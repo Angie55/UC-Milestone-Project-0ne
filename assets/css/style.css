@@ -175,9 +175,6 @@ header {
     
 .homepage-image {
     height: 40vh;
-    
-    
-    
     background: url(../images/homepage/homepage-one.jpg) no-repeat fixed; 
      -webkit-background-size: cover;
       -moz-background-size: cover;
@@ -186,7 +183,6 @@ header {
     display: flex;
     align-items: center;
     margin-top: 30px;
-    margin-left: 0px;
     margin-bottom: 50px;
     justify-content: center;
     }   
@@ -198,11 +194,11 @@ header {
 .homepage-intro {
     margin-top: 20px;
     margin-bottom: 20px;
-    
 }
+
 /*--------------------------------- Homepage End*/   
 
-/*---------------------------------Navigation Tabs*/
+
 
 
 /*-------------------------------------------Recipe link buttons*/
@@ -366,7 +362,14 @@ header {
     .video-section {
         margin-top: 20px;
     }
-    
+    .homepage-intro {
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+    .homepage-image {
+        margin-top: 50px;
+        margin-bottom: 80px;
+    }
 }
 
 @media (min-width:1550px) {
