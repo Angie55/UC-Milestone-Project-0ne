@@ -32,12 +32,21 @@ hr {
 
 /*--------------------------------- Main Navigation*/
 
+.logo, nav {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+
 .navbar-colour {
     background-color: white;
 }
 
 .logo {
     color: #f58c5e;
+}
+
+.logo:hover {
+    color: #818386;
 }
 
 .navbar-nav .active {
