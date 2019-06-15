@@ -2,10 +2,7 @@ body {
     font-family: "Roboto", sans-serif;  
 }
 
-.img-fluid {
-    max-width: 100%;
-    height:auto;
-}
+
 hr {
     max-width: 80%;
     background-color: #dfdce3;
@@ -293,7 +290,6 @@ header {
     text-align: center;
     margin: 40px auto;
     color: #f58c5e;
-
 }
 
 .recipe-title-block {
