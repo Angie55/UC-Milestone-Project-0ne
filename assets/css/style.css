@@ -309,8 +309,14 @@ header {
     font-weight: 600;
     text-align: center;
     font-size: 1.3em;
-    padding-top: 15px
-    }
+    position: relative; /*---------------------------------Code taken from Stack Overflow https://stackoverflow.com/questions/2939914/how-do-i-vertically-align-text-in-a-div*/
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -o-transform: translateY(-50%); /*---------------------------------Code taken from Stack Overflow https://stackoverflow.com/questions/2939914/how-do-i-vertically-align-text-in-a-div*/
+    padding-right: 5px;
+    padding-left: 5px;
+}
     
 .recipe-title-link {
     color: white;
@@ -349,7 +355,6 @@ header {
         max-width: 80%;
     }
     .recipe-title {
-        padding-top: 10px;
         font-size: 1.3em;
     }
     .recipe-headers {
