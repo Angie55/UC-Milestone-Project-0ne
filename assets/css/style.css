@@ -2,7 +2,6 @@ body {
     font-family: "Roboto", sans-serif;  
 }
 
-
 hr {
     max-width: 80%;
     background-color: #dfdce3;
@@ -25,7 +24,6 @@ hr {
     margin-top: 60px;
     text-align: center;
 }
-
 
 /*--------------------------------- Main Navigation*/
 
@@ -56,9 +54,8 @@ hr {
 
 .nav-link-colour {
     color: #37948a;
-   }
+}
    
-
 .nav-link-colour:hover {
     color: #818386;
 }
@@ -92,7 +89,7 @@ hr {
     }
 }
 
-/*-------from YouTube video-Kevin Powell*/
+/*-------from YouTube video-Kevin Powell end*/
 
 .sub-menu {
     list-style: none;
@@ -130,7 +127,6 @@ hr {
     -o-transition: all 0.25s ease-in-out;
 }
 
-
 .sub-menu-main:hover {
     background-color: rgba(223, 220, 227, .2);
     border-radius: 10px;
@@ -140,10 +136,6 @@ hr {
     -webkit-transition: all 0.40s ease-in-out;
     -o-transition: all 0.25s ease-in-out;
 }
-
-
-
-
 
 /*---------------------------------Main Navigation End*/
 
@@ -158,7 +150,6 @@ header {
 /*--------------------------------- Homepage*/
 .header-image-container {
     height: 60vh;
-    
     background: url(../images/homepage/home-hero.jpg) no-repeat bottom fixed; 
      -webkit-background-size: cover;
       -moz-background-size: cover;
@@ -168,7 +159,7 @@ header {
     align-items: center;
     margin-bottom: 5px;
     justify-content: center;
-    }
+}
     
 .homepage-image {
     height: 40vh;
@@ -182,7 +173,7 @@ header {
     margin-top: 30px;
     margin-bottom: 50px;
     justify-content: center;
-    }   
+}   
     
 .homepage-main {
     text-align: center;
@@ -194,9 +185,6 @@ header {
 }
 
 /*--------------------------------- Homepage End*/   
-
-
-
 
 /*-------------------------------------------Recipe link buttons*/
 
@@ -242,7 +230,7 @@ header {
     margin: 30px auto 50px;
 }
 
-/*---------------------------------Recipe link buttons*/
+/*---------------------------------Recipe link buttons end*/
 
 /*---------------------------------About Us*/
 .welcome {
@@ -276,12 +264,9 @@ header {
     text-align: center;
 }
 
-
 /*---------------------------------About Us Ends*/
 
 /*---------------------------------Recipe Page*/
-
-
 
 .recipe-headers {
     font-family: 'Raleway', sans-serif;
@@ -297,7 +282,6 @@ header {
  height:70px;
  border-bottom-left-radius: 10px;
  border-bottom-right-radius: 10px;
-
 }
 
 .recipe-title {
@@ -318,7 +302,6 @@ header {
     color: white;
 }    
 
-
 .recipe-title-link:hover {
     text-decoration: none;
     color: #dfdce3;
@@ -332,119 +315,13 @@ header {
     border: 2px solid rgb(55, 148, 138);
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    
 }
 
 .recipe-link-block {
     margin-bottom: 30px;
-    
 }
 
 /*---------------------------------Recipe Page End*/
-
-
-/*---------------------------------Media Queries large screen*/
-
-
-@media (min-width:1025px) {
-    .page-width-container {
-        max-width: 80%;
-    }
-    .recipe-title {
-        font-size: 1.3em;
-    }
-    .recipe-headers {
-        font-size: 3em;
-        margin: 70px auto 70px;
-    }
-    .small-scrn-recipes-links {
-        margin: 50px auto 70px; 
-    }
-    .video-section {
-        margin-top: 20px;
-    }
-    .homepage-intro {
-        margin-top: 20px;
-        margin-bottom: 40px;
-    }
-    .homepage-image {
-        margin-top: 50px;
-        margin-bottom: 80px;
-    }
-}
-
-@media (min-width:1550px) {
-    .intro-section {
-        margin-bottom: 100px;
-    }
-    .intro {
-        margin-top: 20px;
-    }
-    .video-section {
-        margin-top: 40px;
-    }
-}
-
-@media (min-width:1200px) {
-    .welcome-pic {
-        max-width: 50%;
-        margin-top: 80px;
-    }
-    .about-large-screen hr {
-        margin-top: 40px;
-    }
-}
-
-
-@media (min-width:992px) {
-    .small-scrn-method-section {
-        display: none;
-    }
-}
-
-@media (min-width:810px) {
-    form { 
-        max-width: 60%;
-        margin: 50px auto;
-    }
-    .recipe-page-header {
-        font-size: 1.8em;
-    }
-    
-}
-/*---------------------------------Media Queries large screen end*/
-
-/*---------------------------------Media Queries mobile screen*/ 
-
-
-
-@media (max-width:810px) {
-    .recipe-tabs {
-        display: none;
-    }
-    .recipe-page-main-image {
-        margin: 0 15px;
-    }
-}
-
-
-@media (max-width:810px) {
-.large-scrn-method-section {
-    display: none;
-   }
-}
-
-@media (max-width:1025px) {
-    .disclaimer {
-        display: none;
-    }
-}
-
- 
-/*---------------------------------Secondary Tab Nav*/
-
-
-/*---------------------------------Secondary Tab Nav End*/
 
 /*--------------------------------- Recipe Page Header*/
 .recipe-page-header {
@@ -455,8 +332,6 @@ header {
   text-align: center;
   color: white;
 }
-
-
 
 .header-image {
     width: 100%;
@@ -472,12 +347,10 @@ header {
     transform: translate(-50%, -50%);
     font-family: 'Raleway', sans-serif;
     font-size: 3.4em;
-    
 }
-
+/*--------------------------------- Recipe Page Header end*/
 
 /*--------------------------------- Individual Recipe Pages*/
-
 
 .method-text {
     padding: 20px;
@@ -553,7 +426,6 @@ header {
     border: 1px solid #f58c5e;
  }
    
-
 .large-scrn-method-section {
     max-width: 80%;
     margin: 0 auto;
@@ -568,7 +440,6 @@ header {
     margin-bottom: 20px;
 }
 
-
 /*--------------------------------- Individual Recipe Pages End*/
 
 /*---------------------------------Contact Us*/
@@ -581,7 +452,6 @@ header {
 }
 
 form {
-    
     border: 2px solid #dfdce3;
     border-radius:10px;
     padding:20px;
@@ -601,9 +471,6 @@ form label {
     color: #37948a;
     border-color: #37948a;
  }
- 
- 
-  
  
 /*---------------------------------Contact Us End*/
 
@@ -653,3 +520,95 @@ footer {
        padding-left: 10px;
 }
 
+/*---------------------------------Media Queries large screen*/
+
+@media (min-width:1025px) {
+    .page-width-container {
+        max-width: 80%;
+    }
+    .recipe-title {
+        font-size: 1.3em;
+    }
+    .recipe-headers {
+        font-size: 3em;
+        margin: 70px auto 70px;
+    }
+    .small-scrn-recipes-links {
+        margin: 50px auto 70px; 
+    }
+    .video-section {
+        margin-top: 20px;
+    }
+    .homepage-intro {
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+    .homepage-image {
+        margin-top: 50px;
+        margin-bottom: 80px;
+    }
+}
+
+@media (min-width:1550px) {
+    .intro-section {
+        margin-bottom: 100px;
+    }
+    .intro {
+        margin-top: 20px;
+    }
+    .video-section {
+        margin-top: 40px;
+    }
+}
+
+@media (min-width:1200px) {
+    .welcome-pic {
+        max-width: 50%;
+        margin-top: 80px;
+    }
+    .about-large-screen hr {
+        margin-top: 40px;
+    }
+}
+
+@media (min-width:992px) {
+    .small-scrn-method-section {
+        display: none;
+    }
+}
+
+@media (min-width:810px) {
+    form { 
+        max-width: 60%;
+        margin: 50px auto;
+    }
+    .recipe-page-header {
+        font-size: 1.8em;
+    }
+}
+/*---------------------------------Media Queries large screen end*/
+
+/*---------------------------------Media Queries mobile screen*/ 
+
+@media (max-width:810px) {
+    .recipe-tabs {
+        display: none;
+    }
+    .recipe-page-main-image {
+        margin: 0 15px;
+    }
+}
+
+@media (max-width:810px) {
+.large-scrn-method-section {
+    display: none;
+   }
+}
+
+@media (max-width:1025px) {
+    .disclaimer {
+        display: none;
+    }
+}
+
+/*---------------------------------Media Queries mobile screen end*/ 
