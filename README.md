@@ -1,4 +1,4 @@
-
+Link to deployed website [Homemade Beauty](https://angie55.github.io/UC-Milestone-Project-0ne/)  
      
 # Homemade Beauty
 
@@ -79,6 +79,8 @@ The overall feeling of the website is to look clean and simple like many skincar
 
 
 **Wireframes**
+
+Click to view [Wireframes](https://balsamiq.cloud/siclxdl/phtv7mj) created in Balsamiq.
 
 ## Features
 
@@ -181,6 +183,30 @@ The addition of approximate costing per recipe to compare to purchased skincare.
 ## Testing
 
 ## Deployment
+
+This project was developed using the Cloud9 IDE, the committed to git and pushed to GitHub through the terminal within Cloud9's features.
+
+To deploy the project from the GitHub repository to GitHub Pages I took the following steps:
+
+1. Logged into **GitHub**.
+2. Chose **Angie55/UC-Milestone-Project-One** from the list of repositories.
+3. Selected **Settings** from the menu that is just under the respository, it is the last item on the right.
+4. Scrolled down to the section titled **GitHib Pages**.
+5. Under **Source** clicked the dropdown menu titled **None** and selected **Master Branch**.
+6. This automatically refreshes the page which took me back to the top. The website has now been delpoyed.
+7. Then I scrolled back down to the **GitHub Pages** section where there is now an link to the delpoyed website, I clicked the link to view and check it.
+ 
+On submission the The Development Branch and Master Branch of this project are identical.
+
+To run the project locally by cloning from GitHub:
+1. Click this link to go to the projects [GitHub repository](https://github.com/Angie55/UC-Milestone-Project-0ne).
+2. Click the green **Clone or download** dropdown at the top right, just above the list if files and commits.
+3. Copy the URL in the box under **Clone to HTTPS**. https://github.com/Angie55/UC-Milestone-Project-0ne.git
+4. Open **Git Bash** in your local IDE.
+5. Change the current working directory to the location you want the cloned directory to be made.
+6. Type *git clone*, then paste the URL that you copied earlier. https://github.com/Angie55/UC-Milestone-Project-0ne.git
+7. When you press **Enter** your local clone will be created.
+
 
 ## Credits
 
