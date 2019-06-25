@@ -139,14 +139,6 @@ hr {
 
 /*---------------------------------Main Navigation End*/
 
-/*---------------------------------Headers*/
-
-header {
-    height: 40vh;
-}
-
-/*---------------------------------Headers End*/
-
 /*--------------------------------- Homepage*/
 .header-image-container {
     height: 60vh;
@@ -346,7 +338,7 @@ header {
     left: 50%;
     transform: translate(-50%, -50%);
     font-family: 'Raleway', sans-serif;
-    font-size: 3.4em;
+    font-size: 3.4vw;
 }
 /*--------------------------------- Recipe Page Header end*/
 
