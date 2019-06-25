@@ -178,13 +178,58 @@ The addition of approximate costing per recipe to compare to purchased skincare.
 -	[JQuery](https://jquery.com/) –used through bootstrap for responsive navigation.
 -	[Popper.js](https://popper.js.org/) – used through bootstrap for responsive navigation.
 
-
-
 ## Testing
+
+Manual testing was carried out on every page to test:
+
+- Navigation links
+- Page links
+- Recipe button links
+- Social media links
+
+Buttons and links hover effects were tested to ensure all transitions and changes were working.
+
+All images and the favicon loaded on each page. The images are responsive. 
+
+All pages are fully responsive and resize with all correct positioning and spacing. The set up using bootstrap grid and media queries works well.
+
+Page content was proofed to check content made sense and there were no grammatical errors I am aware of.
+
+The form on the contact us page will not allow the user to submit unless all sections are filled correctly and gives feedback as to errors or what has ben missed.
+
+### Cross browser/device testing
+
+**IMac 21.5inch screen**- 
+
+- Chrome- resizing the screen from the smallest to largest size. Also using the developer tools to check site all devices available in portrait and landscape mode.
+
+- Safari – resizing the screen from the smallest to largest size.
+
+- Firefox- resizing the screen from the smallest to largest size. Also using Firefox developer tools to view site on all available devices in portrait and landscape.
+
+**IPhone 5SE**– 
+- Safari and Chrome- portrait and landcape.
+
+Checked site across several versions of browsers on [Browserly](https://www.browserling.com/)
+
+### Issues found and resolved -
+
+I did alot of testing as i went to resolve any issues as I built the site.
+
+On all tablets I found that the ingredients and method sections on the individual recipes pages were displaying both the large and small screen version between 810px and 991px. I corrected this by amending the size the media query for larger screens should begin.
+
+The h1 in the header images on each page on smaller devices when landscape were too large. I changes the em sizing to vh and the header sizes.
+
+
+### Left to resolve-
+
+The hero image and image half way down the homepage seem to resize well and look good on Firefox and Chrome developer tools when set to IPhone5 but when the site is open on mu IPhone 5SE they are so large that you can’t see them.
+This is an issue I will have to look into after submission, as I need to submit this project.
+
 
 ## Deployment
 
-This project was developed using the Cloud9 IDE, the committed to git and pushed to GitHub through the terminal within Cloud9's features.
+This project was developed using the Cloud9 IDE, the committed to git and pushed to GitHub through the Git Bash terminal within Cloud9.
 
 To deploy the project from the GitHub repository to GitHub Pages I took the following steps:
 

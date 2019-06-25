@@ -270,10 +270,10 @@ hr {
 }
 
 .recipe-title-block {
- background-color: rgb(55, 148, 138);
- height:70px;
- border-bottom-left-radius: 10px;
- border-bottom-right-radius: 10px;
+    background-color: rgb(55, 148, 138);
+    height:70px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 .recipe-title {
@@ -338,7 +338,7 @@ hr {
     left: 50%;
     transform: translate(-50%, -50%);
     font-family: 'Raleway', sans-serif;
-    font-size: 3.4vw;
+    font-size: 10vh;
 }
 /*--------------------------------- Recipe Page Header end*/
 
@@ -571,7 +571,7 @@ footer {
     .recipe-page-header {
         font-size: 1.8em;
     }
-   .small-scrn-method-section {
+    .small-scrn-method-section {
         display: none;
     }
 }
