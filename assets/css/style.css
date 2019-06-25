@@ -571,12 +571,6 @@ footer {
     }
 }
 
-@media (min-width:992px) {
-    .small-scrn-method-section {
-        display: none;
-    }
-}
-
 @media (min-width:810px) {
     form { 
         max-width: 60%;
@@ -585,7 +579,11 @@ footer {
     .recipe-page-header {
         font-size: 1.8em;
     }
+   .small-scrn-method-section {
+        display: none;
+    }
 }
+
 /*---------------------------------Media Queries large screen end*/
 
 /*---------------------------------Media Queries mobile screen*/ 
