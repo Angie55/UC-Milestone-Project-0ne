@@ -601,11 +601,4 @@ footer {
     }
 }
 
-@media (max-width:600px) {
-.header-image-container {
-    background: url(../images/homepage/home-hero-mobile.jpg) no-repeat center center fixed;
-    background-size: cover;
-    }
-}    
-
 /*---------------------------------Media Queries mobile screen end*/ 
