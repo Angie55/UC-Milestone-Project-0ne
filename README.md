@@ -170,7 +170,9 @@ The addition of approximate costing per recipe to compare to purchased skincare.
 
 ## Technologies used 
 
--   HTML and CSS programming languages
+-   HTML 
+-   CSS 
+-   [git](https://git-scm.com/)- used as a respository
 -	[Cloud9 IDE](https://c9.io) – Used for building the website and viewing developments.
 -	[Bootstrap](https://getbootstrap.com/) – Used mainly to help with the layout, navigation and making the site responsive.
 -	[Google Fonts](https://fonts.google.com/) – a link to Google fonts is used to style fonts on the website.
@@ -179,6 +181,27 @@ The addition of approximate costing per recipe to compare to purchased skincare.
 -	[Popper.js](https://popper.js.org/) – used through bootstrap for responsive navigation.
 
 ## Testing
+
+### Client goals/journey testing
+
+Clients can:
+
+- Easily figure out what the site is about.
+- Navigate easily as the navigation and movement throughout the website is predictable.
+- Find out more on the reasons for the website.
+- Recognise the aesthetic of a health and beauty website.
+- Easily find the well organised recipes. 
+- They have options and an easy way to navigate between recipes. They can flip between recipes easily as well as easily get back to where they were.
+- Easily watch videos on every recipe page.
+- They can find out more about each vlogger with a link in the intro which does not take them away from the site.
+- See the same layout on each recipe page so become comfortable and familar quickly as they know what to expect.
+- They can see how basic the recipes are at a quick glance on the individual recipe pages. 
+- They can see information on each ingredient to tell the user why it’s good.
+- They can use the back to top link to quickly go back up.
+- They get good clear feedback when hovering over navigation, buttons and links.
+- They can make contact and get feedback if they miss anything out on the form.
+
+### Manual Testing
 
 Manual testing was carried out on every page to test:
 
@@ -195,11 +218,13 @@ All pages are fully responsive and resize with all correct positioning and spaci
 
 Page content was proofed to check content made sense and there were no grammatical errors I am aware of.
 
-The form on the contact us page will not allow the user to submit unless all sections are filled correctly and gives feedback as to errors or what has ben missed.
+The form on the contact us page will not allow the user to submit unless all sections are filled correctly and gives feedback as to errors or what has been missed.
+
+
 
 ### Cross browser/device testing
 
-**IMac 21.5inch screen**- 
+**iMac 21.5inch screen**- 
 
 - Chrome- resizing the screen from the smallest to largest size. Also using the developer tools to check site all devices available in portrait and landscape mode.
 
@@ -207,24 +232,28 @@ The form on the contact us page will not allow the user to submit unless all sec
 
 - Firefox- resizing the screen from the smallest to largest size. Also using Firefox developer tools to view site on all available devices in portrait and landscape.
 
-**IPhone 5SE**– 
+**iPhone 5SE**– 
 - Safari and Chrome- portrait and landcape.
 
 Checked site across several versions of browsers on [Browserly](https://www.browserling.com/)
 
 ### Issues found and resolved -
 
-I did alot of testing as i went to resolve any issues as I built the site.
+Alot of testing was done as the project was built so most issues were generally resolved along the way.
 
 On all tablets I found that the ingredients and method sections on the individual recipes pages were displaying both the large and small screen version between 810px and 991px. I corrected this by amending the size the media query for larger screens should begin.
 
-The h1 in the header images on each page on smaller devices when landscape were too large. I changes the em sizing to vh and the header sizes.
+The h1 in the header images on each page on smaller devices when landscape were too large. I changed the em sizing to vh and the header sizes.
+
+Found the word Scrubs missing the 'c' in the main navigation under recipes when in the 2nd and 3rd face cleansers recipe pages. I corrected both pages and committed the changes.
 
 
 ### Left to resolve-
 
-The hero image and image half way down the homepage seem to resize well and look good on Firefox and Chrome developer tools when set to IPhone5 but when the site is open on mu IPhone 5SE they are so large that you can’t see them.
+The hero image and image half way down the homepage seem to resize well and look good on Firefox and Chrome developer tools when set to iPhone5 but when the site is open on my iPhone 5SE they are so large that you can’t see them.
 This is an issue I will have to look into after submission, as I need to submit this project.
+
+There seems to be some no margin on the right and left of the homepage when it is viewed in Chrome developer tools as an iPad or iPad Pro. It appears to display fine on these devices in Firefox. This will require further testing.
 
 
 ## Deployment
