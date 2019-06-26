@@ -515,7 +515,7 @@ footer {
 /*---------------------------------Media Queries large screen*/
 
 @media (min-width:1025px) {
-    .page-width-container {
+    .page-width-container {   
         max-width: 80%;
     }
     .recipe-title {
