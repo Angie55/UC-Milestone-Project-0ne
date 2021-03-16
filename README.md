@@ -3,11 +3,11 @@ Link to deployed website [Homemade Beauty](https://angie55.github.io/UC-Mileston
 # Homemade Beauty
 
 Homemade beauty is a website focused on natural skin care that can easily made at home using very simple ingredients. 
-Each ingredient is natural, either in it’s whole form or with very little modification.  The primary goal of the website 
+Each ingredient is natural, either in its whole form or with very little modification. The primary goal of the website 
 is to give users an introduction to how easy it is make their own products for their beauty/cleansing routine.
 Users can read more about why it’s good to go natural as well as see a range of recipes organised into categories. Each 
 recipe page has a clear list in ingredients and how they are good for skin. There is also a video to accompany each recipe,
-which makes the experience feel more interactive.The site also gives creators a opportunity to feature on the website and share new recipes.
+which makes the experience feel more interactive. The site also gives creators an opportunity to feature on the website and share new recipes.
 
 ### Developer goals
 
@@ -23,7 +23,7 @@ As a user who is interested in natural skin products I want:
 -	Information on ingredients
 -	Links to bloggers and vloggers that create content I could be interested in.
 -	Videos of how to make a homemade product.
--	Affordable alternatives to ready made products
+-	Affordable alternatives to ready-made products
 -	Control of what goes on my body
 
 
@@ -40,7 +40,7 @@ As a user who is interested in natural skin products I want:
 
 Women aged 25-50 who most likely already try to eat clean and are conscious of chemicals in everyday products. Other motives include years of expensive 
 skin products that have not effect and looking for a more environmentally friendly option. The client may be searching online for brands that sell products which 
-they claim to be all natural and want to explore if it is easy to DIY simliar products with good results.
+they claim to be all natural and want to explore if it is easy to DIY similar products with good results.
 
 
 **Client story**
@@ -67,11 +67,11 @@ The overall feeling of the website is to look clean and simple like many skincar
 -	Colours- the main three colours used where a green, orange and grey. The green give a clean and natural feel while the orange adds a pop of colour,
 	as you would find in nature. During my research most of the well-designed natural health blogs used a couple of bright colours on a predominantly 
 	white website.
--	Font- Raleway has a elegant feel that is quite modern. It compliments the general feel but still works well alongside natural products and imagery. Roboto
-	is an easy to read, firendly font that works very well with most fonts and is recommended as a top match for Raleway.
+-	Font- Raleway has an elegant feel that is quite modern. It complements the general feel but still works well alongside natural products and imagery. Roboto
+	is an easy to read, friendly font that works very well with most fonts and is recommended as a top match for Raleway.
 -	Imagery- recipe images focus on shots of simple ingredients that can be easily recognised and finished products that look familiar as a skin care product.
 -	Headers and other imagery across the site uses flowers and the sea which work with the natural theme of the site. An image of each vlogger that the user will 
-	see or hear in the video features on eah recipe page to create a familiar feeling.
+	see or hear in the video features on each recipe page to create a familiar feeling.
 -	Transitions- these are smooth for calm, natural feel. The main navigation feature a line that grows that I felt gave a good experience as the growing line 
 	fits that natural feel while giving clear feedback that they are hovering over the link. 
 -	Button and social transitions reverse the colour for clear feedback that the user can click and go somewhere.
@@ -110,7 +110,7 @@ For smaller screens the main menu options becomes a burger menu that toggles to 
 This features a large hero image that would fit well on any general skin care site so there is immediately a familiar feel. The image is fixed so it looks like you 
 scroll over it for a clean modern feel. Information is visible that leads to bold images that link to recipes so users have the choice to go straight to what they are 
 most likely looking for. The page scrolls over a fixed background image that fits the theme and feel. Then users are given the choice to read about the site and make contact. 
-The main menu options are available on the page so if the user choose to scroll down the homepage rather that go straight to the menu they can still start navigating and exploring the
+The main menu options are available on the page so if the user choose to scroll down the homepage rather than go straight to the menu they can still start navigating and exploring the
 content and it will still make sense as they start using the main navigation.
 
 The responsive design uses the same method as the face and body recipe pages. For smaller screen sizes each image/link goes onto a single line so the images and text 
@@ -122,7 +122,7 @@ remain bold and clear.
 This begins with an introduction about the purpose of the website so the user can get a clear idea of what it is about. The introduction includes a call to action for anyone
 interested in sharing a recipe. 
 The rest of the about us gives further details as to why it’s a good idea to go natural and gives some good reasons.  A short video gives more detail of what to avoid. This 
-page gives the user a chance to learn more and a reason to explore the website and it’s content.
+page gives the user a chance to learn more and a reason to explore the website and its content.
 
 **Face and Body recipe pages**
 
@@ -139,7 +139,7 @@ The title clearly states which recipe the user is on and starts with an introduc
 explore the individual further if they choose. They also have some familiarity with the person they will see or hear in the video.
 
 The ingredients and instructions section is kept very simple to make it clear how simple each recipe is to make and how few ingredients are involved. A small leaf icon 
-replaces the bullet points for a fun addition to the simplistic page. Each ingredients has a brief explanation of it’s benefits to the skin. The measurement and ingredient
+replaces the bullet points for a fun addition to the simplistic page. Each ingredients has a brief explanation of its benefits to the skin. The measurement and ingredient
 are in bold for quick reading, while the reader scans over it is clear how simple the recipe is. 
 
 Responsive ingredients and instructions sections- on a larger screen this is within one block as with the larger space this looked better with it all together and connected. 
@@ -172,11 +172,11 @@ The addition of approximate costing per recipe to compare to purchased skincare.
 
 -   HTML 
 -   CSS 
--   [git](https://git-scm.com/)- used as a respository
+-   [git](https://git-scm.com/)- used as a repository.
 -	[Cloud9 IDE](https://c9.io) – Used for building the website and viewing developments.
 -	[Bootstrap](https://getbootstrap.com/) – Used mainly to help with the layout, navigation and making the site responsive.
 -	[Google Fonts](https://fonts.google.com/) – a link to Google fonts is used to style fonts on the website.
--	[Font Awesome](https://fontawesome.com/)- used fro icons on the website.
+-	[Font Awesome](https://fontawesome.com/)- used for icons on the website.
 -	[JQuery](https://jquery.com/) –used through bootstrap for responsive navigation.
 -	[Popper.js](https://popper.js.org/) – used through bootstrap for responsive navigation.
 
@@ -194,7 +194,7 @@ Clients can:
 - They have options and an easy way to navigate between recipes. They can flip between recipes easily as well as easily get back to where they were.
 - Easily watch videos on every recipe page.
 - They can find out more about each vlogger with a link in the intro which does not take them away from the site.
-- See the same layout on each recipe page so become comfortable and familar quickly as they know what to expect.
+- See the same layout on each recipe page so become comfortable and familiar quickly as they know what to expect.
 - They can see how basic the recipes are at a quick glance on the individual recipe pages. 
 - They can see information on each ingredient to tell the user why it’s good.
 - They can use the back to top link to quickly go back up.
@@ -233,13 +233,13 @@ The form on the contact us page will not allow the user to submit unless all sec
 - Firefox- resizing the screen from the smallest to largest size. Also using Firefox developer tools to view site on all available devices in portrait and landscape.
 
 **iPhone 5SE**– 
-- Safari and Chrome- portrait and landcape.
+- Safari and Chrome- portrait and landscape.
 
 Checked site across several versions of browsers on [Browserly](https://www.browserling.com/)
 
 ### Issues found and resolved -
 
-Alot of testing was done as the project was built so most issues were generally resolved along the way.
+A lot of testing was done as the project was built so most issues were generally resolved along the way.
 
 On all tablets I found that the ingredients and method sections on the individual recipes pages were displaying both the large and small screen version between 810px and 991px. I corrected this by amending the size the media query for larger screens should begin.
 
@@ -264,13 +264,13 @@ To deploy the project from the GitHub repository to GitHub Pages I took the foll
 
 1. Logged into **GitHub**.
 2. Chose **Angie55/UC-Milestone-Project-One** from the list of repositories.
-3. Selected **Settings** from the menu that is just under the respository, it is the last item on the right.
+3. Selected **Settings** from the menu that is just under the repository, it is the last item on the right.
 4. Scrolled down to the section titled **GitHib Pages**.
 5. Under **Source** clicked the dropdown menu titled **None** and selected **Master Branch**.
-6. This automatically refreshes the page which took me back to the top. The website has now been delpoyed.
-7. Then I scrolled back down to the **GitHub Pages** section where there is now an link to the delpoyed website, I clicked the link to view and check it.
+6. This automatically refreshes the page which took me back to the top. The website has now been deployed.
+7. Then I scrolled back down to the **GitHub Pages** section where there is now a link to the deployed website, I clicked the link to view and check it.
  
-On submission the The Development Branch and Master Branch of this project are identical.
+On submission the Development Branch and Master Branch of this project are identical.
 
 To run the project locally by cloning from GitHub:
 1. Click this link to go to the projects [GitHub repository](https://github.com/Angie55/UC-Milestone-Project-0ne).
@@ -300,7 +300,7 @@ To run the project locally by cloning from GitHub:
 **Code**
 
 -	CSS- section of code clearly marked taken from the YouTube video ['Create a responsive navigation with no JS!'](https://www.youtube.com/watch?v=8QKOaTYvYUA) by Kevin Powell of how
-	to create a growing line as a hover effect on main navigation. I just adjusted some small detail, putting the line below the naviagtion titles.
+	to create a growing line as a hover effect on main navigation. I just adjusted some small detail, putting the line below the navigation titles.
 -	Hero image- CSS styling inspired by Code Institute guided project for Whiskey Drop website.
 -	Footer- Slightly modified version of footer used in Code Institute guided project for Whiskey Drop website.
 
